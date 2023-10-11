@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const baseUri = 'http://127.0.0.1:5000/'
+const baseUri = 'https://mariocarballo.pythonanywhere.com/'
 
 function useGetApiString(endpoint) {
   const [data, setData] = useState(null);
